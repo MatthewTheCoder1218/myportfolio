@@ -8,6 +8,9 @@ import arrow from './assets/arrow.png'
 import bugblaze from './assets/bugblaze.png'
 import weather from './assets/weather-music.png'
 import cryptomarket from './assets/cryptomarket.png'
+import onepercent from './assets/onepercent.png'
+import geminiclone from './assets/gemini-clone.png'
+import devmarks from './assets/devmarks.png'
 
 const projectsData = [
   {
@@ -27,6 +30,24 @@ const projectsData = [
     title: 'Crypto Market',
     description: 'A dashboard to track cryptocurrency prices and market trends in real-time.',
     link: 'https://cryptomarket-place.netlify.app'
+  },
+  {
+    img: onepercent,
+    title: 'One Percent',
+    description: 'A platform to made to help African youths to learn and grow in tech especially Web3 and AI with incentives.',
+    link: 'https://onepercentng.com'
+  },
+  {
+    img: geminiclone,
+    title: 'Gemini (Clone)',
+    description: 'A website I made to learn about APIs and other tools in React. Its one of my first React projects.',
+    link: 'https://gemini1-clone.netlify.app/'
+  },
+  {
+    img: devmarks,
+    title: 'DevMarks',
+    description: 'A platform for developers to save useful links, resources, articles and docs.',
+    link: 'https://lp-devmarks.vercel.app'
   }
 ]
 
@@ -91,6 +112,7 @@ const App = () => {
             <i className="fa-brands fa-react"></i>
             <i className="fa-brands fa-node-js"></i>
           </div>
+          <div className="about-btop">And More</div>
         </div>
       </section>
 
